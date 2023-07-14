@@ -168,7 +168,7 @@ namespace SymbolGet
                 Console.WriteLine(finishList.Count);
             }
             string json = JsonConvert.SerializeObject(finishList, Formatting.Indented);
-            string filePath = "D:\\allTokenWithBinanceGateByBitHuobiKucoin.json"; // Замініть шлях на власний
+            string filePath = "D:\\allTokenWithBinanceGateByBitHuobiKucoin.json"; 
 
             File.WriteAllText(filePath, json);
 
